@@ -5,14 +5,12 @@ description: Bem vindo ao 8Bits/Code, Boa leitura!!!.
 tags: python
 ---
 
-
-Seja bem vindo ao _8bits_ _code_
-
 Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python
 
 Para que possamos dá inicio ao processo de criação é necessário ter o gerenciador de pacotes do pithon instalado em seu sistema 
 operracional.
 para verificar, rode o seguinte comando em seu termial:
+
 ```
 // se ouver uma saída positiva mostrando endereço de algum diretório
 // isso significa que o pip está instalado
@@ -67,7 +65,6 @@ a saida do comando assim será algo parecido com esse:
 >> pip 21.0.1 from /home/atrya/.local/lib/python3.8/site-packages/pip (python 3.8)
 
 ```
-
 # [](#header-1) Instalando  Virtualenv o Sistema Operacional usando o pip
 
 Tendo verificado se o pip está instalado em seu Sistema Operacional, agora podemos continuar, a primeira coisa que devemos fazer para podemos criar uma virtualenv no Ubuntu é instalar a virtualenv, esse programa irá ser responsável por criar as "virtuais envs".
@@ -91,7 +88,6 @@ terminal:
 
 >> virtualenv 20.4.2 from /home/atrya/.local/lib/python2.7/site-packages/virtualenv/__init__.pyc
 ```
-
 
 ## [](#header-2)Instalar virtualenv para o Python 3
 
@@ -158,6 +154,7 @@ lembrabdo de modificar o < env > pelo nome que você deu a sua env.
 ```
 >> rm -r env
 ```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Osd7hcts8RQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Esperamos ter-lo ajudado a sanar suas dúvidas.
 Até o próximo artigo...
