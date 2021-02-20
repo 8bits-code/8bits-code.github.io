@@ -2,7 +2,6 @@
 layout: post
 title:  "Python - Criando uma virtualenv no Ubuntu/Debian"
 tags: python
-comments: true
 ---
 
 
