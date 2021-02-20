@@ -1,12 +1,11 @@
 title: 8Bits/Code
+url: https://8bits-code.github.io
 author: 8bits-code
 email: oitobits.code@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Conteúdo para quem está aprendendo a programar em Java ou Python, você
   pode nós encontrar no YouTube como 8Bits Code, vídeos toda semana.
 show_excerpts: false # set to true to show excerpts on the homepage
-
-url: https://8bits-code.github.io
 
 paginate: 4
 paginate_path: "/blog/page:num/"
