@@ -5,7 +5,7 @@ email: oitobits.code@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Conteúdo para quem está aprendendo a programar em Java ou Python, você
   pode nós encontrar no YouTube como 8Bits Code, vídeos toda semana.
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 paginate: 4
 paginate_path: "/blog/page:num/"
@@ -20,17 +20,11 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: 8bits-code-github-io
+    shortname: https-8bits-code-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://twitter.com/bitbrain_
-      icon: twitter-square
-      color: cyan
-    - url: https://bitbrain.itch.io
-      icon: itch-io
-      color: red
     - url: https://github.com/8bits-code
       icon: github-square
       color: purple
