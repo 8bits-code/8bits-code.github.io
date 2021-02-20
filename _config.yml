@@ -2,9 +2,8 @@ title: 8Bits/Code
 author: 8bits-code
 email: oitobits.code@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Conteúdo para quem está aprendendo a programar em Java ou Python, você
+  pode nós encontrar no YouTube como 8Bits Code, vídeos toda semana.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 3
@@ -20,7 +19,7 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: bitbrain-github-io
+    shortname: 8bitscode
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
@@ -31,7 +30,7 @@ dash:
     - url: https://bitbrain.itch.io
       icon: itch-io
       color: red
-    - url: https://github.com/bitbrain
+    - url: https://github.com/8bits-code
       icon: github-square
       color: purple
 
@@ -51,4 +50,4 @@ plugins:
 
 # Replaces the default avatar provider (gravatar)
 #avatar_source: github
-#github_username: bitbrain
+#github_username: 8bits-code
