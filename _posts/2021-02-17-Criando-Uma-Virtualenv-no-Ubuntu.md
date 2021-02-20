@@ -154,7 +154,13 @@ lembrabdo de modificar o < env > pelo nome que você deu a sua env.
 ```
 >> rm -r env
 ```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Osd7hcts8RQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<div class="embad">
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Osd7hcts8RQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 Esperamos ter-lo ajudado a sanar suas dúvidas.
 Até o próximo artigo...
