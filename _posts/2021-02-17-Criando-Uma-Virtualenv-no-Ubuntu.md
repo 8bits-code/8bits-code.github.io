@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Python - Criando uma virtualenv no Ubuntu/Debian"
+description: Bem vindo ao __8Bits/Code__.
 tags: python
 ---
 
