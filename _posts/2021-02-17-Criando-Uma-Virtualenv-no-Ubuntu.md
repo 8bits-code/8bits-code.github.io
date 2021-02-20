@@ -1,9 +1,8 @@
-
 ---
 layout: post
 title:  "Python - Criando uma virtualenv no Ubuntu/Debian"
-description: Nesse post vamos aprender algumas características das Virtuais Envs e como cria-las.
 tags: python
+comments: true
 ---
 
 
