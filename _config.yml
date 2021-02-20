@@ -1,5 +1,5 @@
 title: 8Bits/Code
-url: 8bits-code.github.io
+url: https://8bits-code.github.io
 author: 8bits-code
 email: oitobits.code@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -20,7 +20,7 @@ dash:
   date_format: "%b %-d, %Y"
 
   disqus:
-    shortname: https-8bits-code-github-io
+    shortname: 8bits-code-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
