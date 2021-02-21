@@ -9,15 +9,11 @@ before_install:
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
 deploy:
-  repo: 8bits-code/8bits-code.github.io
-  provider: pages
-  local-dir: ./site
-  target-branch: master
-  email: deploy@travis-ci.org
-  name: Deployment Bot
-  skip-cleanup: true
+  provider: releases
   api_key:
     secure: O9NI1OxQEaAPojVke/FIw/NEdIPTnzVRH9W22kHlcM4sQUIMMOv7uKQNN993M+aH0UIgy22PiQ7AdLnW/IL+crYMb5Ylg3S5KHw4AZ0RCfuTM3yjap5WUhCYftQ7Djxux74u30NAXFteMyRIXw+/I1kUY9oIHd9wU0BGe0hLpBv+6xEGE0WqyIbGwB5+CTVUxHMUDJ85kOpBp19nBjr1roqwLeYFT4qS6wPihM5B4yDhLDEWVopJK4cYdr6KBicnckEEzwbE/u2e1PmGM3PqXltNrAz6GFIeoI1mxHhJHtFGUEZhbrlQitNz21QfPLyxzB7DnqQCbqhjw+SqIyoNGJQhPMqD//Mln2SbYvzoSnDxfPrR/QrYvCchls5eCeITJW2JPEz0oQ7IKs5pE3MbS3jU6kUmqMN9yhwdCkUfX13x1dCcuRqufoPActY8Y82RSv4wW/8wfdeM4eZd2gF9STMSYDfaabVmqAKB8qfh/0qKzH3bEBSsHewqaPaWZ3BcqcmQ51HQkS68AZORtCcn2zFk+2kCGy1rXZWATxb8h+2X4ms5ibdDoef59T75EUw9FykE/XLS6ghHZfv9LOt9ngrY1txpAFTv7G6BAxKX4DOwhlYgI6by7RpCO2zKYEn5ji2+nxA/M3IQAB8FnX8cP95zEIRu9VNol0yVkbNE3XA=
-  keep-history: true
+  file: "*"
+  skip_cleanup: true
   on:
-    branch: master
+    tags: true
+    rvm: 2.0.0
