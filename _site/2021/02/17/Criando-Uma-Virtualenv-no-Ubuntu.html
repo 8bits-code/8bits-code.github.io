@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Python - Criando uma virtualenv no Ubuntu/Debian | 8Bits/Code</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Python - Criando uma virtualenv no Ubuntu/Debian" />
+<meta name="author" content="8bits-code" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Bem vindo ao 8Bits/Code, Boa leitura!!!." />
+<meta property="og:description" content="Bem vindo ao 8Bits/Code, Boa leitura!!!." />
+<link rel="canonical" href="http://localhost:4000/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html" />
+<meta property="og:url" content="http://localhost:4000/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html" />
+<meta property="og:site_name" content="8Bits/Code" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-17T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python - Criando uma virtualenv no Ubuntu/Debian" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Python - Criando uma virtualenv no Ubuntu/Debian","dateModified":"2021-02-17T00:00:00-03:00","datePublished":"2021-02-17T00:00:00-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html"},"author":{"@type":"Person","name":"8bits-code"},"description":"Bem vindo ao 8Bits/Code, Boa leitura!!!.","url":"http://localhost:4000/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="8Bits/Code" /></head>
+<body><div class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">8Bits/Code<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
+    <span class="social_links">
+        <a class="color-purple-hover" href="https://github.com/8bits-code"><i class="fab fa-github-square"></i></a><a class="color-red-hover" href="https://www.youtube.com/channel/UC6qRe3cEGMY10GTg6rH_E9w?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
+    </span>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+  <div class="author-box">
+    
+    
+        <img src="
+            https://github.com/8bits-code.png
+        " class="author-avatar" alt="Avatar" />
+    
+Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits Code, vídeos toda semana.
+
+</div>
+
+
+<div class="post">
+  <h1 class="post-title">Python - Criando uma virtualenv no Ubuntu/Debian</h1>
+  
+  <div class="post-tags">
+      
+      <a class="tag" href="/tag/python/">python</a>
+      
+  </div>
+  
+  <div class="post-date">Published on 17 Feb 2021</div>
+  
+  <noscript>
+    <div class="post-description">Bem vindo ao 8Bits/Code, Boa leitura!!!.</div>
+  </noscript>
+  <div id="animated-post-description" class="post-description" style="display: none;"></div>
+  
+  <p>Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python</p>
+
+<p>Para que possamos dá inicio ao processo de criação é necessário ter o gerenciador de pacotes do pithon instalado em seu sistema 
+operracional.
+para verificar, rode o seguinte comando em seu termial:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// se ouver uma saída positiva mostrando endereço de algum diretório
+// isso significa que o pip está instalado
+
+&gt;&gt; pip --version
+
+//caso ocorra algum erro, tente:
+
+&gt;&gt; pip3 --version
+
+</code></pre></div></div>
+<p>se nenhuma dessas duas opções funcionarem, você deve instalar o pip em seu Sistema Operacional
+para isso, rode o seguinte comando:</p>
+
+<h2 id="instalar-o-pip-para-o-python-2"><a href="#header-2"></a>Instalar o pip para o Python 2</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; python2 --version
+
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; sudo apt install python-pip
+
+</code></pre></div></div>
+<p>verificar se foi realmente instalado</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; pip --version
+
+</code></pre></div></div>
+<p>a saida do comando assim será algo parecido com esse:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; pip 20.2.4 from /home/atrya/.local/lib/python2.7/site-packages/pip (python 2.7)
+
+</code></pre></div></div>
+<h2 id="instalar-o-pip-para-o-python-3"><a href="#header-2"></a>Instalar o pip para o Python 3</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; python3 --version
+
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;  sudo apt install python3-pip
+
+</code></pre></div></div>
+<p>verificar se foi realmente instalado</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; pip3 --version
+
+</code></pre></div></div>
+<p>a saida do comando assim será algo parecido com esse:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; pip 21.0.1 from /home/atrya/.local/lib/python3.8/site-packages/pip (python 3.8)
+
+</code></pre></div></div>
+<h1 id="-instalando--virtualenv-o-sistema-operacional-usando-o-pip"><a href="#header-1"></a> Instalando  Virtualenv o Sistema Operacional usando o pip</h1>
+
+<p>Tendo verificado se o pip está instalado em seu Sistema Operacional, agora podemos continuar, a primeira coisa que devemos fazer para podemos criar uma virtualenv no Ubuntu é instalar a virtualenv, esse programa irá ser responsável por criar as “virtuais envs”.</p>
+
+<p>para temos acesso as funcionalidades, devemos instala-la utilizando o gerencioador de arquivos que instalamos na etapa anterior, para isso digite o seguinte código em seu terminal:</p>
+
+<h2 id="instalar-virtualenv-para-o-python-2"><a href="#header-2"></a>Instalar virtualenv para o Python 2</h2>
+
+<p>rode o seguinte código em seu terminal</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; pip install virtualenv
+
+</code></pre></div></div>
+<p>Para verificar se a instalação ocorreu de forma correta, digite o seguinte comando no seu 
+terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; virtualenv --version
+
+ //  terá como saída no terminal a seguinte informação
+
+&gt;&gt; virtualenv 20.4.2 from /home/atrya/.local/lib/python2.7/site-packages/virtualenv/__init__.pyc
+</code></pre></div></div>
+
+<h2 id="instalar-virtualenv-para-o-python-3"><a href="#header-2"></a>Instalar virtualenv para o Python 3</h2>
+
+<p>rode o seguinte código em seu terminal</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; pip3 install virtualenv
+
+</code></pre></div></div>
+<p>Para verificar se a instalação ocorreu de forma correta, digite o seguinte comando no seu 
+terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; virtualenv --version
+
+ //  terá como saída no terminal a seguinte informação
+
+&gt;&gt; virtualenv 20.0.28 from /home/atrya/.local/lib/python3.8/site-packages/virtualenv/__init__.py
+
+</code></pre></div></div>
+
+<h1 id="-criando-uma-virtualenv"><a href="#header-1"></a> Criando uma Virtualenv</h1>
+
+<p>Para criar uma virtualenv é muito fácil, basta ir para o diretório do projeto que você deseja 
+criar a virtualenv e roda o seguinte comando no seu terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// &lt;nome &gt; é o nome que você deseja dá a sua virtualenv, normalmente se coloca env.
+
+&gt;&gt; virtualenv &lt;Nome&gt;
+
+ //  Esperi o processo de criação termionar, e você terá a sua primeira virtualenv
+
+</code></pre></div></div>
+<p>Depois de rodado o código assim, você irá ver no diretório do seu projeto uma nova pasta
+com o nome que você colocou em sua virtualenv</p>
+
+<p>até esse nomento, nós criamos a env, no entanto, para podemos utilizala devemos ativar-la
+para isso demos correr o seguinte código no termial aberto na pasta do projeto.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// env deve ser trocado apara o nome que vocẽ deu a pasta da sua virtualenv.
+
+&gt;&gt; source env/bin/activacte
+
+</code></pre></div></div>
+<p>pronto, agora você tem sua virtualenv ativada e pronta para ser utilizada em seu projeto, agora todo pacote/lib/módulo que você instalar utilizando o pip irá ser instalado em sua virtalenv e estará disponível para esse projeto em explecifico.</p>
+
+<p>lembrando que caso você feche o terminal, e volte para dá continuidade em seu projeto você deve ativar sua virtualenv novamente seguindo o passo anterior.</p>
+
+<h1 id="-desativando-e-removendo-virtualenv"><a href="#header-1"></a> Desativando e removendo Virtualenv</h1>
+
+<p>caso você não deseje mais utilizar uma env, voçê pode desativar ou remove-la/deletar-la.
+Para desativa-lá basta fechar o terminal ou digitar no terminal o seguinte copmando:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; deactivate
+
+</code></pre></div></div>
+<p>Caso você deseje remove-lá para sempre, digite o seguinte comando no terminal, denttro do diretório do projeto:</p>
+
+<p>lembrabdo de modificar o &lt; env &gt; pelo nome que você deu a sua env.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt; rm -r env
+</code></pre></div></div>
+
+<div class="embad">
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/Osd7hcts8RQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+</div>
+
+<p>Esperamos ter-lo ajudado a sanar suas dúvidas.
+Até o próximo artigo…</p>
+
+</div>
+
+
+<div class="comments">
+<div id="disqus_thread"></div>
+<script>
+ var disqus_config = function () {
+     this.page.url = 'http://localhost:4000/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html';
+     this.page.identifier = '/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu';
+     this.page.title = 'Python - Criando uma virtualenv no Ubuntu/Debian';
+ };
+
+ (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+     var d = document, s = d.createElement('script');
+
+     s.src = '//https-8bits-code-github-io.disqus.com/embed.js';
+
+     s.setAttribute('data-timestamp', +new Date());
+     (d.head || d.body).appendChild(s);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+
+
+
+
+<div class="related">
+  <h2>Posts Relacionados</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2019/04/16/welcome-to-jekyll2.html">
+            Welcome to Jekyll!
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/04/13/introduction-to-waiting.html">
+            Introducing waiting functionality
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/03/16/analysis-of-design.html">
+            An extensive analysis on game design
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+  
+  <h2>all tags</h2>
+  <div class="tag-cloud"><a href="/tag/analysis/" class="set-1">analysis</a> <a href="/tag/design/" class="set-1">design</a> <a href="/tag/got/" class="set-1">got</a> <a href="/tag/introduction/" class="set-5">introduction</a> <a href="/tag/python/" class="set-1">python</a> <a href="/tag/review/" class="set-1">review</a> <a href="/tag/tutorial/" class="set-1">tutorial</a> <a href="/tag/welcome/" class="set-1">welcome</a></div>
+  
+
+
+
+
+<script>
+  let i = 0;
+  const text = 'Bem vindo ao 8Bits/Code, Boa leitura!!!.';
+  const speed = parseInt('50');
+  
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById('animated-post-description').innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  document.getElementById('animated-post-description').style.display = 'initial';
+  typeWriter();
+</script>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+    <div class="credits"><a href="https://github.com/bitbrain/jekyll-dash">dash</a> theme for Jekyll by <a href="https://github.com/bitbrain">bitbrain</a> made with <i class="fas fa-heart"></i><div class="toggleWrapper">
+    <input type="checkbox" class="dn" id="theme-toggle" onclick="modeSwitcher()" checked />
+    <label for="theme-toggle" class="toggle">
+    <span class="toggle__handler">
+      <span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+        <span class="star star--1"></span>
+        <span class="star star--2"></span>
+        <span class="star star--3"></span>
+        <span class="star star--4"></span>
+        <span class="star star--5"></span>
+        <span class="star star--6"></span>
+    </label>
+</div>
+<script type="text/javascript">
+const theme = localStorage.getItem('theme');
+
+if (theme === "light") {
+    document.documentElement.setAttribute('data-theme', 'light');
+} else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+}
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+
+function activateDarkTheme() {
+    document.getElementById('theme-toggle').checked = true;
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.classList.add('theme--dark');
+    document.documentElement.classList.remove('theme--light');
+	document.getElementById("theme-toggle").className = 'light';
+	window.localStorage.setItem('theme', 'dark');
+}
+
+function activateLightTheme() {
+    document.getElementById('theme-toggle').checked = false;
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.classList.add('theme--light');
+    document.documentElement.classList.remove('theme--dark');
+	document.getElementById("theme-toggle").className = 'dark';
+	window.localStorage.setItem('theme', 'light');
+}
+
+if (theme === "dark") {
+    activateDarkTheme();
+} else if (theme === "light") {
+    activateLightTheme();
+} else if  (userPrefers === "light") {
+    activateDarkTheme();
+} else {
+    activateDarkTheme();
+}
+
+function modeSwitcher() {
+	let currentMode = document.documentElement.getAttribute('data-theme');
+	if (currentMode === "dark") {
+	    activateLightTheme();
+	} else {
+	    activateDarkTheme();
+	}
+}
+</script></div>
+  </div>
+</footer>
+
+
+<script>
+      window.FontAwesomeConfig = {
+        searchPseudoElements: true
+      }
+    </script>
+  </body>
+
+</html>
