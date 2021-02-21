@@ -1,21 +1,20 @@
 language: ruby
 cache: bundler
-
+branches:
+  only:
+  - master
 before_install:
 - gem install bundler -v 2.0.1
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
-
-branches:
-only:
-  - master
-  - /\d+\.\d+\.\d+/
-
 deploy:
-  provider: releases
+  deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+
   api_key:
-    secure: O9NI1OxQEaAPojVke/FIw/NEdIPTnzVRH9W22kHlcM4sQUIMMOv7uKQNN993M+aH0UIgy22PiQ7AdLnW/IL+crYMb5Ylg3S5KHw4AZ0RCfuTM3yjap5WUhCYftQ7Djxux74u30NAXFteMyRIXw+/I1kUY9oIHd9wU0BGe0hLpBv+6xEGE0WqyIbGwB5+CTVUxHMUDJ85kOpBp19nBjr1roqwLeYFT4qS6wPihM5B4yDhLDEWVopJK4cYdr6KBicnckEEzwbE/u2e1PmGM3PqXltNrAz6GFIeoI1mxHhJHtFGUEZhbrlQitNz21QfPLyxzB7DnqQCbqhjw+SqIyoNGJQhPMqD//Mln2SbYvzoSnDxfPrR/QrYvCchls5eCeITJW2JPEz0oQ7IKs5pE3MbS3jU6kUmqMN9yhwdCkUfX13x1dCcuRqufoPActY8Y82RSv4wW/8wfdeM4eZd2gF9STMSYDfaabVmqAKB8qfh/0qKzH3bEBSsHewqaPaWZ3BcqcmQ51HQkS68AZORtCcn2zFk+2kCGy1rXZWATxb8h+2X4ms5ibdDoef59T75EUw9FykE/XLS6ghHZfv9LOt9ngrY1txpAFTv7G6BAxKX4DOwhlYgI6by7RpCO2zKYEn5ji2+nxA/M3IQAB8FnX8cPrrue
+    secure: "PFoELjZcIWE4bWa0pC2aSL9dyicbvqbqATGxNUxHNTaKCzvtc51ZjhudJBMvbVKeT2YDIbyNWTrkUSX45QQmVITr2P4gAZfZPa90TxBC8OqHIahS1dV/JPoyUsYn+CRYWrdISs9Si25IxD535BCMHQmnDwMIa5v0poH5hj+JhPx5F/E1+UNjgf5ITyncjRaa5HgVQr2xZrTShcC5qU3aEAtVgKcADMPeBlsmTMV1j/CCb2MgxuorAQlaYrcbyUd+aGZoRlc5ENg/iFcH1BJ9sWBC4HyX3Q7q3yE4rc0GgkWGrU1BJkIjzxgfPejRS+3SGT0WUEi1SUcg8FWBSWIBKlHQjTUH3LxjKTAoh4cfAIRERS7C/OuKFEDerlCe5byCKVb57r/Yl0WzZMc1gHBasj/NJ6vQjvdDueng2R5YDU3ZCUqdxiGkFql+KqY/ZX5fMO1W7GtzltI4ac9HyI9TI5UuGLVgedWzm/bCz8FBNKJm8a8icwO+qimAKVSgNDAAhhPdpCdUj30XIGBcJwqyuWdLM1rlaWrKtx84mZRvm8QCoZCwLsvcFEYPRwi6Cr/Fn4bYyB3cpvWlb/NM8GeT04X6rVPSGmp+wdHjRL91dlxehHL/GL8bdtLQHtJ+4xi7jMml1dX0qzJ28rcFVtIKethnFx1AgHkqwm0uKqLI6aY="
   on:
-    repo: 8bits-code/8bits-code.github.io
-    tags: true
-    branch: master
+    branch: main
