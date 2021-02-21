@@ -1,4 +1,3 @@
-
 language: ruby
 cache: bundler
 
@@ -19,7 +18,9 @@ deploy:
   file_glob: true
   skip_cleanup: true
   on:
-    tags: true
+    repo: 8bits-code/8bits-code.github.io
+    tags: false
+    all_branches: true
     branch: master
 
   branches:
