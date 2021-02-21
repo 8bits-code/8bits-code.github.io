@@ -8,13 +8,14 @@ before_install:
 script:
   - JEKYLL_ENV=production bundle exec jekyll build --destination site
 deploy:
-  deploy:
+  repo: bitbrain/bitbrain.github.io
   provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-
-  api_key:
-    secure: Z+STr0ormv8jyORHimZ4NBrWtABpjZ7NTLncuVId9yUQknbrCncpzpty2OtcdAh/rgSzJtt74ZoIrlBwOoXTkb/GKhaVKCPFPxYoxssVXNMHc2kdsT/8bMtfCS93Nua2/K+41ADuC6MpkuIFXO2t6GSGamKqOuVZKvNLfecImEvDnmTKJQFAb+9JNywVU500hu6w0GFFKQVbrd7FXuVIW9ddzzeEz3EVtGszEmNbMyXQZBRt1SyWKvg8RIpLA4wMGJYFa+6iFCdP7TMUt9h7uzwJCYmrYLaFkAWYh24/tb3mMhbGT7UHYjK3DQjzYu1P0iB1Ms4A+Kt9q4SLPK9RRe79ICcmqor9feBZ2o1csmcutJVdy6Lhu0TOpsdvwigb13vb6m1+WR3kCbCb7wRsfJxPM3farnm+ylP5aNhh24x0soscdS6owy3Dp5K0tPN4t94Foabe/q2goL9FPBxpqK4lb6WSXVVww3DnyA8Xdkt6SgQQkwyV92Sbv6YY70/SYFQG74nljlP3gx8OPbGIV7PpKix9G/+wt1lAtIRetvJNJ2kchQ3I/AD51itqpq/mrFbtTj2aquGpdA7JQQL5jwfZk0wlnkv+xwpoL7COoXCU9SbyfyXrRndle2+l12KrdZpXG2iKo9UzyiH1dXSXAUgYB8U/1u1a5I8s7m2y+Cw=
+  local-dir: ./site
+  target-branch: master
+  email: deploy@travis-ci.org
+  name: Deployment Bot
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
   on:
     branch: master
