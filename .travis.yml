@@ -19,8 +19,7 @@ deploy:
   skip_cleanup: true
   on:
     repo: 8bits-code/8bits-code.github.io
-    tags: false
-    all_branches: true
+    tags: true
     branch: master
 
   branches:
