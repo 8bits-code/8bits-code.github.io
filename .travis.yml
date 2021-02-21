@@ -13,10 +13,11 @@ deploy:
   provider: pages
   local-dir: ./site
   target-branch: master
-  email: deploy@travis-ci.org
+  email: deploy@travis-ci.com
   name: Deployment Bot
   skip-cleanup: true
-  github-token: 091cafe0d869cfcd7e8ccad62c114a199281389f
+  api_key:
+    secure: 091cafe0d869cfcd7e8ccad62c114a199281389f
   keep-history: true
   on:
     branch: master
