@@ -1,3 +1,4 @@
+
 language: ruby
 cache: bundler
 branches:
@@ -6,7 +7,7 @@ branches:
 before_install:
 - gem install bundler -v 2.0.1
 script:
-- JEKYLL_ENV=production bundle exec jekyll build --destination site
+  - JEKYLL_ENV=production bundle exec jekyll build --destination site
 deploy:
   repo: 8bits-code/8bits-code.github.io
   provider: pages
@@ -15,9 +16,7 @@ deploy:
   email: deploy@travis-ci.org
   name: Deployment Bot
   skip-cleanup: true
-  api_key:
-    secure: F5IkHX/MTfFAg9IPxujdsuGhbsL47b1Fep3dHVrY38ilCB1O5HyhqOy90Fx+3npylGCbOKzTTO90Zph2GN2xW6o3K3zeReKlQoSY8UJiOC9ugeicOVhvrblojz73scT7kGdadWGyjWEzMhGZlcC+M2jb//xm/amIQDSOZlVpCMTf7dx/7vNOrlY5+rh2xG3dUomdPfNJvQrygpSBXuvdtH1mrrcji8xp+B1ei3roNQoO4tHwQLjUg7k18V1dQ9PnNV0AtzOQsbDlpvSI5NJ21VDj0+3bQUDdu2Inf0HUKuiRqc/qtbZWjN/s+X6bbrBv7wMtP5FbfSwG8z4/pT3WE31D0Z3/mQ6YpGOg92FCpwfJp19vzY0rQtTJDW0TImjMD2vizytRvOGvL+YvmH2VGR84rmMvxxHizNsF6zC2dTtQ62/JBhiVlMacT7S7TwJw7t4GQtSZko5vge79U73nAZMJke2EzB/aGfaJCZpl95bH16fCiBmYtNJRB4pqZp+DPYePCKmOF7fMyKFzb5GZ55ub+mtDXo8eb7S8MXKD2BT3cYWb90wftW5XfLfeXoIYehWbXHjS72x8Xc+uX8dhynJVx751NBlWgBamE6H1R/LguVKUCFWq57f7d8LpKTLoOXBiHfvc9ylCsg5lG9eM7FjxqWRSqr7LHutm8Fmo0rs=
-  file: "*"
+  github-token: $276f73ceb53a634d924c25f5991418a731aeac81
   keep-history: true
   on:
-   branch: master
+    branch: master
