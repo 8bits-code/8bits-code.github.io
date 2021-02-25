@@ -58,7 +58,10 @@ Conteúdo para quem está aprendendo a programar em Java ou Python, você pode n
   
   <div class="post-date">Published on 17 Feb 2021</div>
   
-  <div class="post-description">this article explains something and gives a brief introduction.</div>
+  <noscript>
+    <div class="post-description">this article explains something and gives a brief introduction.</div>
+  </noscript>
+  <div id="animated-post-description" class="post-description" style="display: none;"></div>
   
   <p>Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python</p>
 
@@ -234,6 +237,24 @@ Até o próximo artigo…</p>
   
 
 
+
+
+<script>
+  let i = 0;
+  const text = 'this article explains something and gives a brief introduction.';
+  const speed = parseInt('50');
+  
+  function typeWriter() {
+    if (i < text.length) {
+      document.getElementById('animated-post-description').innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  document.getElementById('animated-post-description').style.display = 'initial';
+  typeWriter();
+</script>
 
       </div>
     </main><footer class="site-footer">
