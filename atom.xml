@@ -34,7 +34,7 @@
  <title>8Bits\Code</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2021-02-25T21:57:44+00:00</updated>
+ <updated>2021-02-25T22:17:55+00:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -49,8 +49,7 @@
    <id>/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu</id>
    <content type="html">&lt;p&gt;Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python&lt;/p&gt;
 
-&lt;p&gt;Para que possamos dá inicio ao processo de criação é necessário ter o gerenciador de pacotes do pithon instalado em seu sistema 
-operracional.
+&lt;p&gt;Para que possamos dá inicio ao processo de criação é necessário ter o gerenciador de pacotes do pithon instalado em seu sistema operracional.
 para verificar, rode o seguinte comando em seu termial:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// se ouver uma saída positiva mostrando endereço de algum diretório
@@ -180,6 +179,12 @@ Para desativa-lá basta fechar o terminal ou digitar no terminal o seguinte copm
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; rm -r env
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embad&quot;&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/Osd7hcts8RQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
 
 &lt;p&gt;Esperamos ter-lo ajudado a sanar suas dúvidas.
 Até o próximo artigo…&lt;/p&gt;
