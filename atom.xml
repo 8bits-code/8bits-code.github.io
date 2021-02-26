@@ -34,13 +34,84 @@
  <title>8Bits\Code</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2021-02-25T22:17:55+00:00</updated>
+ <updated>2021-02-26T02:20:12+00:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Instalando Python e PIP no Ubuntu/Debian</title>
+   <link href="/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html"/>
+   <updated>2021-02-25T00:00:00+00:00</updated>
+   <id>/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian</id>
+   <content type="html">&lt;p&gt;Para roda seus scripts python no Debian ou Ubuntu e seus derivados é preciso
+ter o python instalado em sua máquina, nas versões mais atuais do ubuntu o python já vem instalado por padrão.
+caso ele não esteja instalado por algum motivo, siga os passos a seguir para instala-lo.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-o-python&quot;&gt;Instalando o python&lt;/h2&gt;
+&lt;p&gt;para instalar o python é muito simples, basta abrir o terminal do Ubuntu ou Debian e digitar o comando abaixo.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; sodo apt install python3
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;após apertar Enter no teclado, você terá que digitar a sua senha de usuário de depois escolher “yes” para proseguir com a instalação.&lt;/p&gt;
+
+&lt;p&gt;caso tenha ocorrido tudo corretamente se você digitar o seguinte comando no terminal, terá a indicação da versão do python instalado.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; python3 --version
+ou
+
+&amp;gt;&amp;gt; python --version
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;esse comando retornará a versão do python instalado em sua máquina.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-o-pip&quot;&gt;Instalando o PIP&lt;/h2&gt;
+
+&lt;p&gt;O pip é o gerenciador de pacotes do python, esses pacotes são códigos que pode ser reutilizado em seus programas usando o paradigima de programação POO (Programação Orientada a Objetos), esses módulos facilitam o desenvolvimentos de programas, já que reduz o tempo de criação de código.&lt;/p&gt;
+
+&lt;p&gt;para instalar o pip basta digitar o seguinte comando em seu terminal.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; sudo apt install python3-pip
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;executando-o-seu-primeiro-código-python-no-terminal-ubuntudebian&quot;&gt;Executando o seu primeiro código python no terminal Ubuntu\Debian&lt;/h2&gt;
+
+&lt;p&gt;agora vamos rodar seu primeiro programa no seu terminal, para isso siga os passos a seguir.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Abra seu termial&lt;/li&gt;
+  &lt;li&gt;digite o seguinte comando no seu terminal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;python3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Após isso, o interpretador python irá abrir em seu terminal, agora vocẽ pode executar comandos python.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ditige o comando python abaixo&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!!!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &quot;Hello World!!!&quot;.
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;quando você apertar ENTER no seu teclado, terá como resultado o “Hello World” printado logo abaixo, nesse momento você já executol um código python em seu Ubuntu/Debian.&lt;/p&gt;
+
+&lt;h2 id=&quot;assista-a-explicação-completa-no-nosso-canal&quot;&gt;Assista a explicação completa no nosso canal&lt;/h2&gt;
+
+&lt;div class=&quot;embad&quot;&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/CGf-l0ElRFM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Esperamos tê-lo(a) ajudado(a) a sanar suas dúvidas.
+Até o próximo post…&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Python - Criando uma virtualenv no Ubuntu/Debian</title>
@@ -186,8 +257,8 @@ Para desativa-lá basta fechar o terminal ou digitar no terminal o seguinte copm
 
 &lt;/div&gt;
 
-&lt;p&gt;Esperamos ter-lo ajudado a sanar suas dúvidas.
-Até o próximo artigo…&lt;/p&gt;
+&lt;p&gt;Esperamos tê-lo(a) ajudado(a) a sanar suas dúvidas.
+Até o próximo post…&lt;/p&gt;
 </content>
  </entry>
  
