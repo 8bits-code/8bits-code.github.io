@@ -10,14 +10,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\Code, vídeos toda semana." />
 <meta property="og:description" content="Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\Code, vídeos toda semana." />
+<link rel="canonical" href="https://8bits-code.github.io/atom.xml" />
+<meta property="og:url" content="https://8bits-code.github.io/atom.xml" />
 <meta property="og:site_name" content="8Bits\Code" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="8Bits\Code" />
 <script type="application/ld+json">
-{"description":"Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\\Code, vídeos toda semana.","@type":"WebPage","url":"/atom.xml","author":{"@type":"Person","name":"8Bits\\Code"},"headline":"8Bits\\Code","@context":"https://schema.org"}</script>
+{"description":"Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\\Code, vídeos toda semana.","@type":"WebPage","url":"https://8bits-code.github.io/atom.xml","author":{"@type":"Person","name":"8Bits\\Code"},"headline":"8Bits\\Code","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="8Bits\Code" /></head>
+  <link rel="icon" type="image/png" href="/assets/favicon.png" /><link type="application/atom+xml" rel="alternate" href="https://8bits-code.github.io/feed.xml" title="8Bits\Code" /></head>
 <body><div class="site-header">
   <div class="wrapper">
     <a class="site-title" rel="author" href="/">8Bits\Code<b class="command_prompt"></b><b class="blinking_cursor">_</b></a>
@@ -32,10 +34,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>8Bits\Code</title>
- <link href="/atom.xml" rel="self"/>
- <link href="/"/>
- <updated>2021-02-26T02:26:49+00:00</updated>
- <id></id>
+ <link href="https://8bits-code.github.io/atom.xml" rel="self"/>
+ <link href="https://8bits-code.github.io/"/>
+ <updated>2021-02-26T03:39:57+00:00</updated>
+ <id>https://8bits-code.github.io</id>
  <author>
    <name></name>
    <email></email>
@@ -44,9 +46,9 @@
  
  <entry>
    <title>Instalando Python e PIP no Ubuntu/Debian</title>
-   <link href="/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html"/>
+   <link href="https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html"/>
    <updated>2021-02-25T00:00:00+00:00</updated>
-   <id>/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian</id>
+   <id>https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian</id>
    <content type="html">&lt;p&gt;Para roda seus scripts python no Debian ou Ubuntu e seus derivados é preciso
 ter o python instalado em sua máquina, nas versões mais atuais do ubuntu o python já vem instalado por padrão.
 caso ele não esteja instalado por algum motivo, siga os passos a seguir para instala-lo.&lt;/p&gt;
@@ -115,9 +117,9 @@ Até o próximo post…&lt;/p&gt;
  
  <entry>
    <title>Python - Criando uma virtualenv no Ubuntu/Debian</title>
-   <link href="/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html"/>
+   <link href="https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html"/>
    <updated>2021-02-17T00:00:00+00:00</updated>
-   <id>/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu</id>
+   <id>https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu</id>
    <content type="html">&lt;p&gt;Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python&lt;/p&gt;
 
 &lt;p&gt;Para que possamos dá inicio ao processo de criação é necessário ter o gerenciador de pacotes do pithon instalado em seu sistema operracional.
