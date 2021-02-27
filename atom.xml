@@ -36,7 +36,7 @@
  <title>8Bits\Code</title>
  <link href="https://8bits-code.github.io/atom.xml" rel="self"/>
  <link href="https://8bits-code.github.io/"/>
- <updated>2021-02-27T21:04:54+00:00</updated>
+ <updated>2021-02-27T21:28:35+00:00</updated>
  <id>https://8bits-code.github.io</id>
  <author>
    <name></name>
@@ -94,7 +94,7 @@ ou
 &lt;p&gt;se tudo deu certo, voçê terá como resposta um “Hello World”.&lt;/p&gt;
 
 &lt;h2 id=&quot;execultando-o-script-com-uma-virtualenv&quot;&gt;Execultando o script com uma virtualenv&lt;/h2&gt;
-&lt;p&gt;caso você saiba o que é uma virtualenv, fizemos um post explicando como instalar o programa que cria virtuaienv, acesse ele Aqui&lt;a href=&quot;https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html&quot; target=&quot;_blank&quot;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;caso você saiba o que é uma virtualenv, fizemos um post explicando como instalar o programa que cria virtuaienv, acesse ele &lt;a href=&quot;https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html&quot; target=&quot;_blank&quot;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;caso já tenha instalado, digite o seguinte comando no terminal:&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; virtualenv venv
@@ -126,7 +126,7 @@ ou
 
 &lt;div class=&quot;embad&quot;&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/CGf-l0ElRFM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/SJUwHDc59yo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;/div&gt;
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://8bits-code.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://8bits-code.github.io/" rel="alternate" type="text/html" /><updated>2021-02-27T21:04:54+00:00</updated><id>https://8bits-code.github.io/feed.xml</id><title type="html">8Bits\Code</title><subtitle>Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\Code, vídeos toda semana.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://8bits-code.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://8bits-code.github.io/" rel="alternate" type="text/html" /><updated>2021-02-27T21:28:35+00:00</updated><id>https://8bits-code.github.io/feed.xml</id><title type="html">8Bits\Code</title><subtitle>Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\Code, vídeos toda semana.
 </subtitle><author><name>8Bits\Code</name></author><entry><title type="html">Rodando Scripts Python no Terminal do Ubuntu ou Debian</title><link href="https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian.html" rel="alternate" type="text/html" title="Rodando Scripts Python no Terminal do Ubuntu ou Debian" /><published>2021-02-27T00:00:00+00:00</published><updated>2021-02-27T00:00:00+00:00</updated><id>https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian</id><content type="html" xml:base="https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian.html">&lt;p&gt;O Python é uma linguagem de programação muito famosa e por isso muito utilizada em diversas áreas da tecnologia, desde desenvolvimento web até em Inteligencia Artificial.
 Hoje vamos aprender como roda scripts python no terminal do Ubuntu ou no Debian e seus derivados.&lt;/p&gt;
 
@@ -44,7 +44,7 @@ ou
 &lt;p&gt;se tudo deu certo, voçê terá como resposta um “Hello World”.&lt;/p&gt;
 
 &lt;h2 id=&quot;execultando-o-script-com-uma-virtualenv&quot;&gt;Execultando o script com uma virtualenv&lt;/h2&gt;
-&lt;p&gt;caso você saiba o que é uma virtualenv, fizemos um post explicando como instalar o programa que cria virtuaienv, acesse ele Aqui&lt;a href=&quot;https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html&quot; target=&quot;_blank&quot;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;caso você saiba o que é uma virtualenv, fizemos um post explicando como instalar o programa que cria virtuaienv, acesse ele &lt;a href=&quot;https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html&quot; target=&quot;_blank&quot;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;caso já tenha instalado, digite o seguinte comando no terminal:&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; virtualenv venv
@@ -76,7 +76,7 @@ ou
 
 &lt;div class=&quot;embad&quot;&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/CGf-l0ElRFM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/SJUwHDc59yo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;/div&gt;
 
