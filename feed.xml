@@ -1,5 +1,87 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://8bits-code.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://8bits-code.github.io/" rel="alternate" type="text/html" /><updated>2021-02-26T03:58:47+00:00</updated><id>https://8bits-code.github.io/feed.xml</id><title type="html">8Bits\Code</title><subtitle>Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\Code, vídeos toda semana.
-</subtitle><author><name>8Bits\Code</name></author><entry><title type="html">Instalando Python e PIP no Ubuntu/Debian</title><link href="https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html" rel="alternate" type="text/html" title="Instalando Python e PIP no Ubuntu/Debian" /><published>2021-02-25T00:00:00+00:00</published><updated>2021-02-25T00:00:00+00:00</updated><id>https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian</id><content type="html" xml:base="https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html">&lt;p&gt;Para roda seus scripts python no Debian ou Ubuntu e seus derivados é preciso
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://8bits-code.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://8bits-code.github.io/" rel="alternate" type="text/html" /><updated>2021-02-27T21:04:54+00:00</updated><id>https://8bits-code.github.io/feed.xml</id><title type="html">8Bits\Code</title><subtitle>Conteúdo para quem está aprendendo a programar em Java ou Python, você pode nós encontrar no YouTube como 8Bits\Code, vídeos toda semana.
+</subtitle><author><name>8Bits\Code</name></author><entry><title type="html">Rodando Scripts Python no Terminal do Ubuntu ou Debian</title><link href="https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian.html" rel="alternate" type="text/html" title="Rodando Scripts Python no Terminal do Ubuntu ou Debian" /><published>2021-02-27T00:00:00+00:00</published><updated>2021-02-27T00:00:00+00:00</updated><id>https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian</id><content type="html" xml:base="https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian.html">&lt;p&gt;O Python é uma linguagem de programação muito famosa e por isso muito utilizada em diversas áreas da tecnologia, desde desenvolvimento web até em Inteligencia Artificial.
+Hoje vamos aprender como roda scripts python no terminal do Ubuntu ou no Debian e seus derivados.&lt;/p&gt;
+
+&lt;h2 id=&quot;crie-uma-pasta-teste&quot;&gt;Crie uma pasta teste&lt;/h2&gt;
+&lt;p&gt;Para fica mais organizado, vamos vriar uma pasta para o nosso projeto teste, para isso digite o seguinte comando em seu terminal.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; mkdir teste
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;com isso você terá uma nova pasta como o nome de teste.&lt;/p&gt;
+
+&lt;h2 id=&quot;acesse-a-pasta&quot;&gt;Acesse a pasta&lt;/h2&gt;
+&lt;p&gt;agora vamos acessar essa pasta, para isso digite o seguinte comando:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; cd teste
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;crie-um-arquivo-de-texto-python&quot;&gt;Crie um arquivo de texto python&lt;/h2&gt;
+&lt;p&gt;Assim que você precionar ENTER voçê irá para dentro da pasta, agora podemos criar o nosso script teste, existe varias formas de criar um arquivo de texto, nesse caso vou utilizar o nvim, fique avontade para criar com o editor de texto da sua preferência.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; nvim main.py
+ou
+&amp;gt;&amp;gt; vim main.py
+ou
+&amp;gt;&amp;gt; vi main.py  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Ao apertar ENTER, voçê vai ter acesso ao arquivo, precione “I” no seu teclado para poder editar o arquivo.&lt;/p&gt;
+
+&lt;h2 id=&quot;escreva-seu-código-python&quot;&gt;Escreva seu código Python&lt;/h2&gt;
+&lt;p&gt;agora com o arquivo python aberto, vamos escrever um código para podemos execula-lo no terminal, para esse exemplo, vamos fazer algum bem simples, vamos escrever um “Hello World”.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!!!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &quot;Hello World!!!&quot;.
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Após ter digitado o código, agora você pode salvar e sair do editor, para faça o seguinte:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Aperte no ESC do teclado&lt;/li&gt;
+  &lt;li&gt;Aperte SHIFT  :&lt;/li&gt;
+  &lt;li&gt;Aperte ENTER&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;execulte-seu-script-no-terminal&quot;&gt;Execulte seu script no terminal&lt;/h2&gt;
+&lt;p&gt;Agora voçê está com um script pronto para ser execultado no terninal, para execultar o script, faça o seguinte:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; python3 main.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;se tudo deu certo, voçê terá como resposta um “Hello World”.&lt;/p&gt;
+
+&lt;h2 id=&quot;execultando-o-script-com-uma-virtualenv&quot;&gt;Execultando o script com uma virtualenv&lt;/h2&gt;
+&lt;p&gt;caso você saiba o que é uma virtualenv, fizemos um post explicando como instalar o programa que cria virtuaienv, acesse ele Aqui&lt;a href=&quot;https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html&quot; target=&quot;_blank&quot;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;caso já tenha instalado, digite o seguinte comando no terminal:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; virtualenv venv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Voçê pode mudar o nome “venv” para um de sua escolha, após isso, vamos ativar a sua virtualenv, faça o seguinte em seu terminal:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; source venv/bin/activate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Aperte enter e terá sua virtualenv ativada e pronta para uso&lt;/p&gt;
+
+&lt;p&gt;agora vamos roda o script python nela, para isso digite o seguinte comando:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; python main.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;novamente você terá o seu script execultado.&lt;/p&gt;
+
+&lt;h2 id=&quot;criando-um-executável-python&quot;&gt;Criando um executável python&lt;/h2&gt;
+&lt;p&gt;Para criar um executável python voçê tem que escrever uma código na sua primeira linha do seu script, para isso abra o seu script com o editor de sua preferência e digite o seguinte código na primeira linha do mesmo:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; #!/usr/bin/env python3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;salve a modificação e digite o seguinte comando no terminal:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; chmod +x main.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;agora vamos roda o executável no terminal, para isso faça:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt; ./main.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;como das outras vezes seu script irá roda&lt;/p&gt;
+
+&lt;h2 id=&quot;assista-a-explicação-completa-no-nosso-canal-no-youtube&quot;&gt;Assista a explicação completa no nosso canal no YouTube&lt;/h2&gt;
+
+&lt;div class=&quot;embad&quot;&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/CGf-l0ElRFM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Esperamos tê-lo(a) ajudado(a) a sanar suas dúvidas.
+Até o próximo post…&lt;/p&gt;</content><author><name>8Bits\Code</name></author><category term="python" /><category term="pip" /><category term="ubuntu" /><category term="debian" /><summary type="html">O Python é uma linguagem de programação muito famosa e por isso muito utilizada em diversas áreas da tecnologia, desde desenvolvimento web até em Inteligencia Artificial. Hoje vamos aprender como roda scripts python no terminal do Ubuntu ou no Debian e seus derivados.</summary></entry><entry><title type="html">Instalando Python e PIP no Ubuntu/Debian</title><link href="https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html" rel="alternate" type="text/html" title="Instalando Python e PIP no Ubuntu/Debian" /><published>2021-02-25T00:00:00+00:00</published><updated>2021-02-25T00:00:00+00:00</updated><id>https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian</id><content type="html" xml:base="https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html">&lt;p&gt;Para roda seus scripts python no Debian ou Ubuntu e seus derivados é preciso
 ter o python instalado em sua máquina, nas versões mais atuais do ubuntu o python já vem instalado por padrão.
 caso ele não esteja instalado por algum motivo, siga os passos a seguir para instala-lo.&lt;/p&gt;
 
