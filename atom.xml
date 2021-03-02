@@ -36,7 +36,7 @@
  <title>8Bits\Code</title>
  <link href="https://8bits-code.github.io/atom.xml" rel="self"/>
  <link href="https://8bits-code.github.io/"/>
- <updated>2021-03-02T13:59:58+00:00</updated>
+ <updated>2021-03-02T15:18:38+00:00</updated>
  <id>https://8bits-code.github.io</id>
  <author>
    <name></name>
@@ -208,7 +208,9 @@ Até o próximo post…&lt;/p&gt;
    <link href="https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu.html"/>
    <updated>2021-02-17T00:00:00+00:00</updated>
    <id>https://8bits-code.github.io/2021/02/17/Criando-Uma-Virtualenv-no-Ubuntu</id>
-   <content type="html">&lt;p&gt;Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/media/python-virtualenv.png&quot; alt=&quot;python-virtualenv&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hoje vamos aprender como criar, ativar e remover uma Virtualenv para gerenciamento de projetos em Python&lt;/p&gt;
 
 &lt;p&gt;Para que possamos dá inicio ao processo de criação é necessário ter o gerenciador de pacotes do pithon instalado em seu sistema operracional.
 para verificar, rode o seguinte comando em seu termial:&lt;/p&gt;
