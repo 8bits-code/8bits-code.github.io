@@ -36,7 +36,7 @@
  <title>8Bits\Code</title>
  <link href="https://8bits-code.github.io/atom.xml" rel="self"/>
  <link href="https://8bits-code.github.io/"/>
- <updated>2021-03-02T15:18:38+00:00</updated>
+ <updated>2021-03-02T15:55:57+00:00</updated>
  <id>https://8bits-code.github.io</id>
  <author>
    <name></name>
@@ -49,7 +49,9 @@
    <link href="https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian.html"/>
    <updated>2021-02-27T00:00:00+00:00</updated>
    <id>https://8bits-code.github.io/2021/02/27/Rodando-scripts-python-no-terminal-do-ubuntu-debian</id>
-   <content type="html">&lt;p&gt;O Python é uma linguagem de programação muito famosa e por isso muito utilizada em diversas áreas da tecnologia, desde desenvolvimento web até em Inteligencia Artificial.
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/media/scripts-python-no-terminal.png&quot; alt=&quot;scripts-python-no-terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O Python é uma linguagem de programação muito famosa e por isso muito utilizada em diversas áreas da tecnologia, desde desenvolvimento web até em Inteligencia Artificial.
 Hoje vamos aprender como roda scripts python no terminal do Ubuntu ou no Debian e seus derivados.&lt;/p&gt;
 
 &lt;h2 id=&quot;crie-uma-pasta-teste&quot;&gt;Crie uma pasta teste&lt;/h2&gt;
@@ -140,7 +142,9 @@ Até o próximo post…&lt;/p&gt;
    <link href="https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian.html"/>
    <updated>2021-02-25T00:00:00+00:00</updated>
    <id>https://8bits-code.github.io/2021/02/25/Instalando-Python-e-PIP-no-Ubuntu-e-Debian</id>
-   <content type="html">&lt;p&gt;Para roda seus scripts python no Debian ou Ubuntu e seus derivados é preciso
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/media/instalar-python-pip.png&quot; alt=&quot;instalar-python-pip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para roda seus scripts python no Debian ou Ubuntu e seus derivados é preciso
 ter o python instalado em sua máquina, nas versões mais atuais do ubuntu o python já vem instalado por padrão.
 caso ele não esteja instalado por algum motivo, siga os passos a seguir para instala-lo.&lt;/p&gt;
 
